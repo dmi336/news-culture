@@ -1,0 +1,233 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+}
+
+h4{
+	font-weight: bold;
+	font-size: 17px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.container{
+	width: 1440px;
+	height: 2047px;
+	text-align: center;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+
+header{
+	
+}
+
+header h2{
+	font-family: "Playfair Display", serif;
+	font-size: 35px;
+	margin: 60px 0 46px;
+	letter-spacing: 1px;
+}
+
+ ul{
+	display: flex;
+	list-style-type: none;
+	text-transform: uppercase;
+	justify-content: space-between;
+	margin: 47px 135px;
+	padding-left: 0
+}
+
+ li a{
+	text-decoration: none;
+	color: #000;
+	letter-spacing: 2px;
+}
+
+.hotel{
+	background: url("images/hotelbg.jpg") no-repeat;
+	background-size: cover;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.hotel h1{
+	color: #fff;
+	font-size: 72px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	margin: 32px;
+	line-height: 84px;
+}
+
+.hotel p{
+	color: #fff;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: 0;
+	margin: 139px 0 48px;
+}
+
+.hotel img{
+	margin-top: 46px;
+}
+
+.reviews{
+	height: 463px;
+}
+
+.reviews h4{
+	margin: 44px 0 20px;
+}
+
+.cards{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 1168px;
+	margin: 0 auto;
+}
+
+.cards figure{
+	width: 370px;
+	text-align: left;
+	margin: 0;
+}
+
+.cards p{
+	font-size: 14px;
+	line-height: 21px;
+}
+
+
+.cards a{
+	font-family: "Playfair Display", serif;
+	font-size: 23px;
+	letter-spacing: 0;
+	text-decoration: none;
+	color: #000;
+}
+
+.cards a:hover{
+	color: #ff7931;
+}
+
+.knopka{
+	width: 170px;
+	height: 47px;
+	background: #ff7931 url("images/arrow.svg") no-repeat 117px center;
+	margin: 0 auto;
+}
+
+.knopka a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	display: block;
+	padding-top: 17px;
+	padding-right: 30px;
+}
+
+.abonements{
+	height: 556px;
+	margin-bottom: 50px;
+	background: #f7f7f7 url("images/ellipse1.png") no-repeat center center;
+}
+
+.abonements h3{
+	font-family: "Playfair Display", serif;
+	font-size: 23px;
+	letter-spacing: 0;
+}
+
+.abonements h4{
+	margin: 33px;
+}
+
+.abonements p{
+	width: 370px;
+	margin: 0 auto;
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: 21px;
+}
+
+.abon{
+	//margin: 24px;
+	position: relative;
+	//border: 1px solid green;
+	padding: 10px 0 24px;
+}
+
+.abon h3{
+	margin: 10px;
+}
+
+.abon:not(:last-of-type)::after{
+	position: absolute;
+	content: "";
+	width: 100px;
+	height: 2px;
+	display: block;
+	bottom: 0;
+	left: 46%;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	opacity: 0.4;
+
+}
+
+footer{
+	height: 295px;
+	background: #575757;
+	color: #fff;
+}
+
+footer h2{
+	font-family: "Playfair Display", serif;
+	font-size: 28px;
+	letter-spacing: 1px;
+	margin: 26px 0;
+}
+
+footer ul{
+	margin-top: 32px;
+	margin-bottom: 46px;
+}
+
+hr{
+	width: 1170px;
+}
+
+.social{
+	display: flex;	
+	justify-content: space-between;
+	margin: 42px auto 46px;
+	width: 169px;
+}
+
+
+.social a{
+	display: inline-block;
+	width: 47px;
+	height: 47px;
+}
+
+.inst{
+	background: #fff url("images/inst.svg") no-repeat center center;
+}
+
+.fb{
+	background: #fff url("images/fb.svg") no-repeat center center;
+}
+
+.tw{
+	background: #fff url("images/tw.svg") no-repeat center center;
+}
