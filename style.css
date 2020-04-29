@@ -21,10 +21,6 @@ h4{
 	align-items: stretch;
 }
 
-header{
-	
-}
-
 header h2{
 	font-family: "Playfair Display", serif;
 	font-size: 35px;
@@ -200,6 +196,10 @@ footer h2{
 footer ul{
 	margin-top: 32px;
 	margin-bottom: 46px;
+}
+
+footer a{
+	color: #fff;
 }
 
 hr{
