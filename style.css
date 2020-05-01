@@ -92,7 +92,7 @@ header h2{
 .cards figure{
 	width: 370px;
 	text-align: left;
-	margin: 0;
+	margin: auto;
 }
 
 .cards p{
@@ -157,9 +157,7 @@ header h2{
 }
 
 .abon{
-	//margin: 24px;
 	position: relative;
-	//border: 1px solid green;
 	padding: 10px 0 24px;
 }
 
